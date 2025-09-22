@@ -3,7 +3,7 @@
     padding: 2vh;
 }
 
-#linksEs{
+#linksEs {
     text-decoration: none;
     color: white;
 }
@@ -20,7 +20,7 @@
 }
 
 .logo {
-    font-size:2vh;
+    font-size: 2vh;
     padding: 1vh;
     font-family: "Anton", sans-serif;
     font-weight: 400px;
@@ -40,3 +40,30 @@ ul {
 
 }
 
+.imagem {
+    width: 35%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: rotate(-30deg)
+}
+
+
+#carro {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    font-family: "Agbalumo", system-ui;
+    font-size: 10vh;
+    font-style: normal;
+}
+
+#texto {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    font-style: italic;
+    color: white;
+    text-align: left;
+}
