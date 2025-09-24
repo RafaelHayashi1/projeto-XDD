@@ -1,22 +1,48 @@
-#links {
-    font-size: 3vh;
-    padding: 2vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#linksEs {
-    text-decoration: none;
-    color: white;
+body {
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(#470964, #6d00d9);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .navbar {
-    background-color: black;
-    height: 8vh;
-    font-style: italic;
-    color: white;
-    width: 100%;
-    display: flex;
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  background-color: #222;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.link {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.link li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link li a:hover {
+  color: #007bff;
 }
 
 .logo {
@@ -66,4 +92,9 @@ ul {
     font-style: italic;
     color: white;
     text-align: left;
+}
+
+
+#links{
+    font-size: 30px;
 }
